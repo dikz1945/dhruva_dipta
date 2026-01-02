@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenangan Kelas 9 SMP - Kelas 9A Angkatan 2024</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/logo-sekolah.png">
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Kelas 9D 2025</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#beranda"><i class="fas fa-home"></i> Beranda</a></li>
+                <li><a href="#tentang"><i class="fas fa-users"></i> Tentang Kami</a></li>
+                <li><a href="#galeri"><i class="fas fa-images"></i> Galeri</a></li>
+                <li><a href="#kenangan"><i class="fas fa-heart"></i> Kenangan</a></li>
+                <li><a href="#pesan"><i class="fas fa-envelope"></i> Pesan</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header/Hero Section -->
+    <header id="beranda" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Kelas 9D SMP NEGERI 01 PANINGGARAN</h1>
+            <p class="hero-subtitle">Angkatan 2021-2024 • Selamanya dalam Kenangan</p>
+            <div class="hero-buttons">
+                <a href="#galeri" class="btn btn-primary">Lihat Galeri Kami</a>
+                <a href="#pesan" class="btn btn-secondary">Tinggalkan Pesan</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- Tentang Kami -->
+    <section id="tentang" class="section about">
+        <div class="container">
+            <h2 class="section-title">Tentang Kelas Kami</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Kami adalah Kelas 9A SMP Negeri 1, angkatan 2021-2024. Selama 3 tahun bersama, kami telah melalui banyak pengalaman berharga, dari masa orientasi hingga persiapan ujian nasional.</p>
+                    <p>Kelas dengan 30 siswa yang penuh semangat, dipimpin oleh wali kelas Ibu Sari Dewi, S.Pd. Meski kini kami akan berpisah untuk melanjutkan ke jenjang yang lebih tinggi, kenangan indah bersama akan selalu kami bawa.</p>
+                    <div class="class-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">30</span>
+                            <span class="stat-label">Siswa</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15</span>
+                            <span class="stat-label">Laki-laki</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15</span>
+                            <span class="stat-label">Perempuan</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Tahun</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/foto-kelas.jpg" alt="Foto Kelas 9A" id="class-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri Foto -->
+    <section id="galeri" class="section gallery">
+        <div class="container">
+            <h2 class="section-title">Galeri Kenangan</h2>
+            <p class="section-subtitle">Momen-momen berharga selama 3 tahun bersama</p>
+            
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="foto-kelas">Foto Kelas</button>
+                <button class="filter-btn" data-filter="kegiatan">Kegiatan</button>
+                <button class="filter-btn" data-filter="prestasi">Prestasi</button>
+                <button class="filter-btn" data-filter="liburan">Liburan</button>
+            </div>
+            
+            <div class="gallery-container">
+                <!-- Item galeri akan diisi oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Daftar Siswa -->
+    <section class="section students">
+        <div class="container">
+            <h2 class="section-title">Anggota Kelas 9A</h2>
+            <p class="section-subtitle">30 sahabat yang tak terlupakan</p>
+            
+            <div class="students-container">
+                <!-- Data siswa akan diisi oleh JavaScript -->
+            </div>
+            
+            <div class="view-all">
+                <button id="showAllStudents" class="btn btn-outline">Lihat Semua Siswa</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kenangan Spesial -->
+    <section id="kenangan" class="section memories">
+        <div class="container">
+            <h2 class="section-title">Kenangan Spesial</h2>
+            <p class="section-subtitle">Momen yang paling berkesan bagi kami</p>
+            
+            <div class="memories-container">
+                <div class="memory-card">
+                    <div class="memory-icon">
+                        <i class="fas fa-campground"></i>
+                    </div>
+                    <h3>Kemah Bersama</h3>
+                    <p>Kemah di Gunung Bunder tahun 2022, dimana kami belajar mandiri dan bekerja sama dalam tim.</p>
+                </div>
+                
+                <div class="memory-card">
+                    <div class="memory-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Juara Futsal</h3>
+                    <p>Menjadi juara 1 turnamen futsal antarkelas tahun 2023 setelah latihan keras selama 2 bulan.</p>
+                </div>
+                
+                <div class="memory-card">
+                    <div class="memory-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Pentas Seni</h3>
+                    <p>Pentas seni tahun 2023 dengan penampilan drama musikal yang mengharukan dan lucu.</p>
+                </div>
+                
+                <div class="memory-card">
+                    <div class="memory-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Kelulusan</h3>
+                    <p>Hari kelulusan yang penuh air mata dan kebahagiaan, mengakhiri perjalanan 3 tahun bersama.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pesan dan Kesan -->
+    <section id="pesan" class="section messages">
+        <div class="container">
+            <h2 class="section-title">Pesan & Kesan</h2>
+            <p class="section-subtitle">Tinggalkan pesan untuk teman-teman dan guru</p>
+            
+            <div class="message-form">
+                <div class="form-group">
+                    <input type="text" id="senderName" placeholder="Nama Anda" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="messageText" placeholder="Tulis pesan atau kesan Anda di sini..." rows="4" required></textarea>
+                </div>
+                <button id="submitMessage" class="btn btn-primary">Kirim Pesan</button>
+            </div>
+            
+            <div class="messages-container">
+                <h3>Pesan dari Teman-teman:</h3>
+                <div id="messagesList">
+                    <!-- Daftar pesan akan muncul di sini -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pemutar Musik -->
+    <div class="music-player">
+        <button id="musicToggle" class="music-btn">
+            <i class="fas fa-music"></i>
+            <span>Putar Lagu Kenangan</span>
+        </button>
+        <audio id="backgroundMusic" loop>
+            <source src="https://assets.mixkit.co/music/preview/mixkit-memories-128.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung elemen audio.
+        </audio>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Kelas 9A 2024</span>
+                </div>
+                <p class="footer-quote">"Bertemu adalah awal, bersama adalah proses, dan mengingat adalah suatu kenangan."</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+                <p class="footer-copyright">&copy; 2024 Kenangan Kelas 9A SMP Negeri 1. Selamanya dalam kenangan.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal untuk gambar galeri -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="modalCaption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
